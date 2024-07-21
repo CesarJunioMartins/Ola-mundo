@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+    body{
+        background-color: #ffffff;
+        min-height: 100vh;
+        align-items: center;
+    
+    }
+    
+    .interface{
+        max-width: 1280px;
+        margin: center;
+        align-items: center;
+        
+    
+    }
+    .flex {
+        display: flex;
+    }
+    /* Estilo do cabeçalho */
+    
+    header{
+    padding: 40px 4%; 
+    
+    }
+    
+    header > .interface {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header a {
+        color: #da87f3;
+        text-decoration: none;
+        display: inline-block;
+        transition: .2s;
+    }
+    
+    header a:hover{
+        color: #da87f3;
+        transform: scale(1.55);
+    }
+    
+    header nav ul {
+        list-style-type: none;
+    
+    }
+    
+    header nav ul li {
+        display: inline-block;
+        padding: 0 40px;
+    }.btn-contato {
+        margin-top: 20px;
+    }
+    
+    .btn-contato a {
+        text-decoration: none;
+    }
+    
+    .btn-contato button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #da87f3;
+        border: 15;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    /* estilo do topo do site */
+    section.topo-do-site {
+        padding: 40px 4%;
+        display: flex;
+    
+    }
+    section.topo-do-site.flex{
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+        
+    }
+    .topo-do-site h1{
+        color: #da87f3;
+        font-size: 38px;
+        line-height: 48px;
+        align-items: center;
+    }
+    .topo-do-site p {
+        color: #da87f3;
+        font-size: 18px;
+        min-height: auto;
+    }
+    .btncontato button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #da87f3;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
